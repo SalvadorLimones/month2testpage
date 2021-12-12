@@ -1,0 +1,148 @@
+/* * {
+  margin:0;
+  padding:0;
+  border:0;
+  background:transparent;
+  outline:none;
+  text-decoration:none;
+  outline:none;
+  font-family:inherit;
+  box-sizing:border-box;
+}
+
+ol, ul, li {
+  list-style:none;
+  display:block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing:0;
+}
+
+a img {
+  border: none;
+}
+
+button, a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}  
+
+button, input, textarea, select {
+  appearance: none !important;
+  -webkit-appearance: none !important; 
+  border-radius: 0;
+} */
+body {
+  background-color: #E6E6E6;
+}
+
+#container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #138073;
+}
+
+#container #form-title {
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+
+#container input, #container button {
+  width: 470px;
+  height: 64px;
+  margin-bottom: 25px;
+}
+
+#container input {
+  padding-left: 20px;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container ::-webkit-input-placeholder {
+  color: #138073;
+}
+
+#container :-ms-input-placeholder {
+  color: #138073;
+}
+
+#container ::-ms-input-placeholder {
+  color: #138073;
+}
+
+#container ::placeholder {
+  color: #138073;
+}
+
+#container #email-input {
+  margin-bottom: 0;
+}
+
+#container #checkbox-field {
+  width: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+#container #terms-and-conditions {
+  width: 20px;
+  height: 20px;
+  margin-top: 24px;
+  margin-right: 10px;
+}
+
+#container a {
+  color: #138073;
+}
+
+#container button {
+  width: 250px;
+  background-color: #39B69F;
+  border: none;
+  color: #E6E6E6;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 550px) {
+  #container {
+    padding: 0 30px 0;
+  }
+  #container #name-input, #container #email-input, #container #checkbox-field {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  #container #terms-and-conditions {
+    min-width: 20px;
+    min-height: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
